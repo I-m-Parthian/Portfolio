@@ -1,0 +1,95 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color:#eb5e0b;
+}
+
+h1{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color:#eb5e0b;    
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #eb5e0b;
+    border-width: 5px;
+    height: 0px;
+    width: 5%;
+    margin-bottom: 0;
+}
+.spacing {
+    height: 50px;
+}
+
+/* styling the title sections */
+#title{
+    background-color: #a3d2ca;
+    color:white;
+}
+
+.title-text{
+    /* styling p tag for title */
+    color:#f8f1f1;
+}
+
+.title-image{
+    height: 450px;
+    width: 450px;
+}
+
+
+/* Styling about section */
+#about{
+    background-color: #f8f1f1;
+    color: #5eaaa8;
+}
+.profile-image{
+    /* border-radius: 50%;  */
+    height: 150px; 
+    width: 150px; 
+    margin-top: 30px;
+}
+.description{
+    padding:2px;
+}
+
+/* skills table styling */
+#skills{
+    background-color: #f8f1f1;
+    color: #5eaaa8;
+}
+
+/* carasoul styling for project section  */
+#projects{
+    background-color: #a3d2ca;
+    color: #eb5e0b;
+    padding-bottom: 3%;
+}
+
+#projects-carousel img{
+    height: 50%;
+    width: 30%;
+}
+
+/* Contact section */
+#contact{
+    background-color: #a3d2ca;
+    padding-bottom: 2%;
+}
+
+/* footer section */
+#footer{
+    background-color: #f8f1f1;
+    color:white;
+    padding: 1%;
+    text-align:center;
+  }
+.footer-element{
+color:black;
+/* margin:10px; */
+}
