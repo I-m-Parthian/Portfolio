@@ -1,3 +1,5 @@
+/* General styling of entire project */
+
 body{
     font-family: 'Montserrat', sans-serif;
     color:#eb5e0b;
@@ -24,6 +26,16 @@ hr{
 }
 .spacing {
     height: 50px;
+}
+
+/* =========================Section-wise Styling ===================== */
+/* Styling nav-bar */
+.toggle-button{
+    border-color: #eb5e0b;
+}
+
+.link-color{
+    color: #eb5e0b;
 }
 
 /* styling the title sections */
@@ -71,6 +83,11 @@ hr{
     padding-bottom: 3%;
 }
 
+.section-heading{
+    color:white;
+    padding:1%;
+}
+
 #projects-carousel img{
     height: 50%;
     width: 30%;
@@ -92,4 +109,7 @@ hr{
 .footer-element{
 color:black;
 /* margin:10px; */
+}
+.footer-msg{
+    font-size: 10px;
 }
